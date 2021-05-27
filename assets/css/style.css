@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    flex-direction: column;
+    font-family: 'Poppins', sans-serif;
+    /* background:black; */
+    /* fallback for old browsers */
+    /* background: #f5af19;  */
+    /* Chrome 10-25, Safari 5.1-6 */
+    /* background: -webkit-linear-gradient(to right, #f5af19, #f12711);   */
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    /* background: linear-gradient(to right, #f5af19, #f12711); */
+    /* background: #ffc600; */
+    /* background-image: linear-gradient(to right, #f83600 0%, #f9d423 100%); */
+}
+
+.password-field,.checkbox-field{
+    display: flex;
+}
+
+.password-field{
+    flex-direction: column;
+}
+
+.checkbox-field{
+    margin: 10px 0;
+}
+
+.checkbox-label,
+.password-label
+{
+    color: #fff;
+    color: #333;
+}
+
+.password-label{
+    font-size: 22px;
+    font-weight: 600;
+    margin: 10px  0;
+}
+
+.checkbox-label{
+    font-size: 15px;
+    margin: 0 5px;
+}
+
+#input{
+    border: 1px solid #444;
+    padding: .5rem .7rem;
+    font-family: 'Poppins',sans-serif;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 460px;
+}
+
+#checkbox{
+    border: 0;
+    outline: none;
+    width: 20px;
+}
+
+#input:focus,
+#checkbox:focus
+{
+    outline:none;
+}
+
+.warnings{
+    color: #ffc600;
+    color: #f12711;
+}

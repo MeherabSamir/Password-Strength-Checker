@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Strength Checker By - Meherab Samir</title>
+    <!-- CSS Here -->
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <form action="#" id="form">
+        <div class="password-field">
+            <label for="input" class="password-label">Password Strength Checker</label>
+            <input type="password" name="Password" id="input" onpaste="return false;" ondrop="return false;" oncopy="return false">
+        </div>
+        <div class="checkbox-field">
+            <input type="checkbox" name="Checkbox" id="checkbox">
+            <label for="checkbox" class="checkbox-label">Show Password</label>
+        </div>
+    </form>
+    <div class="warnings">
+        <p class="number"></p>
+        <p class="symbol"></p>
+        <p class="capLett"></p>
+        <p class="smallLett"></p>
+        <p class="passLength"></p>
+    </div>
+
+    <!-- JS Here -->
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
