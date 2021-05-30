@@ -29,7 +29,7 @@ function checkValue(){
 
     const smallLettMatch = input.value.match(smallLettRegex) ? warningSmallLett.innerText = '' : warningSmallLett.innerText='Password must contain at least one Small letter.(abc)' 
 
-    const passLength = input.value.length > 8 ? warningPassLength.innerText = '' : warningPassLength.innerText='Password must at least 8 letters.' 
+    const passLength = input.value.length >= 8 ? warningPassLength.innerText = '' : warningPassLength.innerText='Password must at least 8 letters.' 
 
 }
 
